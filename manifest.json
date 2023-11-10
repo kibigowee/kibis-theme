@@ -1,0 +1,23 @@
+{
+  "name": "rainbow",
+  "version": "1.0.0",
+  "description": "hehe rainbows",
+  "author": "kibi",
+  "manifest_version": 3,
+  
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://codehs.com/*"]
+  }],
+  "web_accessible_resources": [{
+      "resources": ["jquery-1.11.3.min.js"],
+      "matches": ["https://codehs.com/*"]
+  }],
+  "action":
+  {
+    "default_popup": "popup.html",
+    "default_title": "dumb rainbows"
+  },
+  "permissions": ["tabs","storage","activeTab","scripting"]
+}
