@@ -1,15 +1,7 @@
 body {
-    background-color: #f4f8fc;
+    background-image: #F0F0F0;
     height: 350px;
     width: 200px;
-}
-.top-bar{
-    left: 0px;
-    top: 0px;
-    width: 200%;
-    height:60px;
-    background-color: #28384a;
-    color:#fff;
 }
 .circular-color-input {
     /* appearance: none; */
@@ -17,12 +9,12 @@ body {
     width: 25px; /* Adjust the size of the input */
     height: 25px; /* Adjust the size of the input */
     border-radius: 50%;
-    outline: 2px solid #d4d4d4;
+    outline: 2px solid #000000;
     padding: 0;
     
 }
 .xtext{
-    color: #555;
+    color: #E8473F;
     font-family: Arial, Helvetica, sans-serif;
 }
 .submit{
@@ -54,4 +46,8 @@ body {
     margin-right: auto;
     width:90%;
     height:30px;
+    background-color:#E8473F;
+    border-radius: 12px;
+    color:#F0F0F0;
+    outline:none;
 }
