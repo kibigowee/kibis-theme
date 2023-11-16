@@ -1,4 +1,5 @@
 let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(){}|:<>*-+";
+let shouldScramble = false;
 
 setInterval(runProgram,250);
 applyStoredChanges();  

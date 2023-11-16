@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
           unfinStartCol: (document.getElementById("first-unsubmit").value + ""),
           unfinEndCol: (document.getElementById("second-unsubmit").value + ""),
           unopenStartCol: (document.getElementById("first-unopen").value + ""),
-          unopenEndCol: (document.getElementById("second-unopen").value + "")
+          unopenEndCol: (document.getElementById("second-unopen").value + ""),
+          shouldScramble: (document.getElementById("should-scramble").checked + "")
         };
         
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
