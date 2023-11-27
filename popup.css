@@ -1,21 +1,17 @@
 body {
-    background-image: #F0F0F0;
+    background-color: #f7f7f7;
+    
     height: 350px;
     width: 200px;
 }
 .circular-color-input {
-    /* appearance: none; */
     border: none;
-    width: 25px; /* Adjust the size of the input */
-    height: 25px; /* Adjust the size of the input */
+    width: 25px; 
+    height: 25px; 
     border-radius: 50%;
-    outline: 2px solid #000000;
+    outline: 1px solid #9f9f9f;
     padding: 0;
     
-}
-.xtext{
-    color: #E8473F;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .submit{
     display:flex;
@@ -46,8 +42,26 @@ body {
     margin-right: auto;
     width:90%;
     height:30px;
-    background-color:#E8473F;
     border-radius: 12px;
-    color:#F0F0F0;
-    outline:none;
+    background-color: #E8473F;
+    color:#ffffff;
+    border: none;
+}
+.submitLabel{
+    color:#FF652F;
+    display:block;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.unsubmitLabel{
+    color:#007bff;
+    display:block;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.unopenLabel{
+    color:#14A76C;
+    display:block;
+    font-family: cursive;
+    font-weight: bolder;
 }
