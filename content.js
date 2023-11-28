@@ -36,6 +36,6 @@ function applyStoredChanges() {
         document.documentElement.style.setProperty('--end-color-unfinished', userPreferences.unfinEndCol);
         document.documentElement.style.setProperty('--start-color-unopened', userPreferences.unopenStartCol);
         document.documentElement.style.setProperty('--end-color-unopened', userPreferences.unopenEndCol);
-
+        shouldScramble = userPreferences.shouldScramble=="true" ? true : false;
     }
 }
